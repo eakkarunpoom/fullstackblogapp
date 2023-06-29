@@ -37,7 +37,7 @@ return(
             <img src={element.img} alt="post-img"/>
           </div>
           <div className="content">
-            <Link className="link" to={`/post/${element.id}`}>
+            <Link className="link" to={`/single/${element.id}`}>
               <h1>{element.title}</h1>
             </Link>
             <p>{element.desc}</p>

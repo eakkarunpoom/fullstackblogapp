@@ -3,8 +3,6 @@ import Delete from "../img/delete.png"
 import { Link } from "react-router-dom";
 import Menu from "../component/Menu";
 
-
-
 const Single = () => {
   return(
     <div className="single">
